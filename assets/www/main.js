@@ -12,7 +12,7 @@ function init() {
 }
 
 function TestChildBrowser() {
-  var client_id="GETYOUROWN.apps.googleusercontent.com";
+  var client_id="607068653119.apps.googleusercontent.com";
   var state="whatever_you_want";
   var scope="http://maps.google.com/maps/feeds/";
   cb.showWebPage("https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=" + client_id + "&state=" + state + "&redirect_uri=http://localhost&scope=" + scope);
