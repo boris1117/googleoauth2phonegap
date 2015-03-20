@@ -1,0 +1,1 @@
+This is a sample Phonegap/Cordova project that does Google API oAuth2 through a modified version of the Childbrowser plugin. The plugin has an extra event, .onPageLoaded(html), where you get the computed HTML source of the page. With this, it was easy to determine whether the authentication was successful, and close the child browser object.
